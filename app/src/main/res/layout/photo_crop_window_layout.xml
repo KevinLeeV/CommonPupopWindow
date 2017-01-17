@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_photo_crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <TextView
+            android:id="@+id/tv_tack_photo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/custom_toast_text"
+            android:background="@drawable/botton_camera"
+            android:text="拍照"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#dcdcdc"/>
+
+        <TextView
+            android:id="@+id/tv_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/custom_toast_text"
+            android:background="@drawable/botton_photo"
+            android:text="相册"/>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/custom_toast_text"
+            android:background="@drawable/botton_quxiao"
+            android:text="取消"/>
+    </LinearLayout>
+
+</RelativeLayout>

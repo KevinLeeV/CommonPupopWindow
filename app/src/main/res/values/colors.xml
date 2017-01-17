@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#99888a8c</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="none_color">#00ffffff</color>
+    <color name="result_color">#009c42</color>
+    <color name="production_text_color">#62666a</color>
+    <color name="bottom_tab_background">#ececec</color>
+    <color name="main_text_normal">#626768</color>
+    <color name="main_text_choice">#dc2826</color>
+    <color name="scan_text_title">#f4f4f4</color>
+    <color name="custom_toast_text">#000000</color>
+    <color name="grid_line">#60676c</color>
+    <color name="scaning_text">#bebebe</color>
+    <color name="scan_result_background">#eeeeee</color>
+    <color name="scan_result_title_background">#232f3e</color>
+    <color name="scan_result_true_text">#0e54af</color>
+    <color name="scan_result_false_text">#dc2826</color>
+    <color name="report_text">#f0f0f0</color>
+    <color name="product_source_final_text">#0e53b1</color>
+    <color name="product_source_other_text">#60676c</color>
+    <color name="me_text_color">#343434</color>
+    <color name="menu_item_press">#2e000000</color>
+    <color name="dynamic_select_bg">#dc2827</color>
+    <color name="dynamic_normal_bg">#ebebeb</color>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 分享的PopupWindow动画 -->
+    <style name="ShareWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/share_window_in</item>
+        <item name="android:windowExitAnimation">@anim/share_window_out</item>
+    </style>
+    <!-- 弹出广告的PopupWindow动画 -->
+    <style name="AdvertisementWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/advertisement_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/advertisement_anim_out</item>
+    </style>
+
+</resources>
